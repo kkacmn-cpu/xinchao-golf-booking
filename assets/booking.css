@@ -1,0 +1,236 @@
+:root {
+  --bg: #fff9ee;
+  --surface: #fffefb;
+  --surface2: #fff0d9;
+  --text: #332014;
+  --muted: #766457;
+  --line: #ead9c7;
+  --accent: #c84d26;
+  --accent2: #ffcb69;
+  --ink: #332014;
+}
+.site-booking {
+  background: linear-gradient(120deg, #fff7e9, #fffdf8 55%, #f9efe2);
+}
+.site-booking .site-header {
+  background: rgba(255, 249, 238, 0.92);
+}
+.site-booking .brand-mark {
+  background: #c84d26;
+  transform: rotate(-3deg);
+}
+.booking-desk {
+  padding: 42px 0 64px;
+}
+.booking-layout {
+  display: grid;
+  grid-template-columns: 0.82fr 1.18fr;
+  gap: 28px;
+  align-items: stretch;
+}
+.booking-story {
+  padding: 34px;
+  border-radius: 28px;
+  background: #3b2518;
+  color: #fff;
+  overflow: hidden;
+}
+.booking-story h1 {
+  font-size: clamp(39px, 5vw, 64px);
+  margin: 12px 0 18px;
+}
+.booking-story p {
+  color: #efdbca;
+  font-size: 17px;
+}
+.booking-story img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  border-radius: 18px;
+  margin-top: 28px;
+}
+.booking-console {
+  padding: 30px;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.step-indicator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7px;
+  margin-bottom: 28px;
+}
+.step-indicator span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 7px 8px;
+  border-radius: 99px;
+  background: #f4eee8;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 850;
+}
+.step-indicator span.active {
+  background: var(--accent);
+  color: #fff;
+}
+.booking-step {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-height: 330px;
+}
+.booking-step legend {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+}
+.booking-step > p {
+  color: var(--muted);
+  font-size: 14px;
+}
+.booking-step .field {
+  margin-top: 16px;
+}
+.check-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 800;
+}
+.check-row input {
+  width: 22px;
+  height: 22px;
+}
+.wizard-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 9px;
+  margin-top: 20px;
+}
+.booking-summary {
+  display: grid;
+  gap: 9px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: #fff9f0;
+  margin: 14px 0;
+}
+.booking-summary div {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+.booking-summary div:last-child {
+  border: 0;
+}
+.booking-summary span {
+  font-size: 13px;
+  color: var(--muted);
+}
+.booking-summary strong {
+  font-size: 14px;
+}
+.booking-check {
+  background: #3b2518;
+  color: #fff;
+}
+.booking-check .section-head p {
+  color: #e3ccbb;
+}
+.booking-principles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.booking-principles article {
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.06);
+}
+.booking-principles strong {
+  color: #ffcb69;
+}
+.booking-principles h3 {
+  font-size: 20px;
+}
+.booking-principles p {
+  font-size: 14px;
+  color: #e3ccbb;
+}
+.site-booking .guide-card {
+  border-radius: 8px 24px 24px 24px;
+}
+.site-booking .region-pill {
+  border-radius: 10px;
+}
+@media (max-width: 900px) {
+  .booking-layout {
+    grid-template-columns: 1fr;
+  }
+  .booking-story {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 20px;
+    align-items: center;
+  }
+  .booking-story img {
+    margin: 0;
+  }
+  .booking-principles {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 620px) {
+  .booking-desk {
+    padding-top: 24px;
+  }
+  .booking-story {
+    display: block;
+    padding: 24px;
+  }
+  .booking-story h1 {
+    font-size: 40px;
+  }
+  .booking-story img {
+    margin-top: 20px;
+  }
+  .booking-console {
+    padding: 20px;
+    border-radius: 22px;
+  }
+  .step-indicator {
+    grid-template-columns: 1fr 1fr;
+  }
+  .booking-step {
+    min-height: 0;
+  }
+  .booking-step legend {
+    font-size: 26px;
+  }
+  .wizard-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .wizard-actions .button:only-child {
+    grid-column: 1/-1;
+  }
+  .booking-principles {
+    grid-template-columns: 1fr;
+  }
+  .booking-summary div {
+    grid-template-columns: 1fr;
+  }
+}

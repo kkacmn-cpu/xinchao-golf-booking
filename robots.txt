@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xinchao-golf-booking.vercel.app/sitemap.xml
