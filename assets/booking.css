@@ -142,6 +142,30 @@
 .booking-summary strong {
   font-size: 14px;
 }
+.booking-checklist {
+  margin: 16px 0;
+  padding: 18px 18px 18px 38px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: #fff;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.booking-checklist li + li {
+  margin-top: 7px;
+}
+.booking-copy-status {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.booking-copy-fallback {
+  display: block;
+  width: 100%;
+  min-height: 160px;
+  margin-top: 8px;
+  font: inherit;
+}
 .booking-check {
   background: #3b2518;
   color: #fff;
@@ -223,6 +247,9 @@
   .wizard-actions {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .wizard-actions .button {
+    text-align: center;
   }
   .wizard-actions .button:only-child {
     grid-column: 1/-1;
