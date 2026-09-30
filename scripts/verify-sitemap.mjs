@@ -57,5 +57,21 @@ for (const page of pages) {
 for (const url of urls) {
   if (!expected.has(url)) errors.push(`Unexpected sitemap URL: ${url}`);
 }
+const timezoneGuidePath = join(root, "guide", "vietnam-golf-booking-korea-vietnam-local-time", "index.html");
+const timezoneGuide = readFileSync(timezoneGuidePath, "utf8");
+const timezoneHead = timezoneGuide.match(/<head\b[^>]*>([\s\S]*?)<\/head>/i)?.[1] || "";
+if ((timezoneGuide.match(/<h1\b/gi) || []).length !== 1) errors.push("Vietnam booking time guide must have exactly one H1.");
+if (!timezoneGuide.includes("한국시간에서 2시간을 빼면") || !timezoneGuide.includes("2026년 10월 3일 00시 30분")) errors.push("Vietnam booking time guide is missing its direct answer or date-rollover example.");
+if (!timezoneGuide.includes("time-zones/tzdb-2026d/asia") || !timezoneGuide.includes("2026-09-30")) errors.push("Vietnam booking time guide must record the IANA source and verification date.");
+const timezoneJsonLd = [...timezoneHead.matchAll(/<script\s+type="application\/ld\+json">([\s\S]*?)<\/script>/gi)];
+for (const script of timezoneJsonLd) {
+  try {
+    JSON.parse(script[1]);
+  } catch {
+    errors.push("Vietnam booking time guide contains invalid JSON-LD.");
+  }
+}
+if (!timezoneJsonLd.some((script) => script[1].includes('"@type":"Article"'))) errors.push("Vietnam booking time guide Article schema is missing.");
+if (!timezoneJsonLd.some((script) => script[1].includes('"@type":"FAQPage"'))) errors.push("Vietnam booking time guide FAQ schema is missing.");
 console.log(JSON.stringify({ indexablePages: expected.size, sitemapUrls: urls.size, internalLinksChecked, internalTargets: internalTargets.size, errors }, null, 2));
 if (errors.length) process.exitCode = 1;
