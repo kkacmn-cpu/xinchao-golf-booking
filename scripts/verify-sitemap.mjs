@@ -30,6 +30,10 @@ for (const page of pages) {
   const html = readFileSync(page, "utf8");
   const pathname = "/" + relative(root, page).split(sep).join("/").replace(/index\.html$/, "");
   const ownUrl = new URL(pathname, origin).href;
+  const article = html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/i)?.[1] || "";
+  if (/\[[^\]]+\]\((?:https?:\/\/|\/)[^)]+\)/.test(article)) {
+    errors.push(`Unrendered Markdown link in article: ${pathname}`);
+  }
   // Static pages must not ship links to absent routes, even if the sitemap is valid.
   for (const match of html.matchAll(/<a\b[^>]*\bhref\s*=\s*(?:"([^"]*)"|'([^']*)')/gi)) {
     const href = (match[1] ?? match[2]).replaceAll("&amp;", "&");
