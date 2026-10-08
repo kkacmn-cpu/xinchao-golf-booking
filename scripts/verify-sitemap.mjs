@@ -61,6 +61,21 @@ for (const page of pages) {
 for (const url of urls) {
   if (!expected.has(url)) errors.push(`Unexpected sitemap URL: ${url}`);
 }
+const guideEntries = [...sitemap.matchAll(/<url\b[^>]*>([\s\S]*?)<\/url\s*>/g)]
+  .map((match) => ({
+    url: match[1].match(/<loc\s*>\s*([^<]+?)\s*<\/loc\s*>/)?.[1]?.trim(),
+    lastmod: match[1].match(/<lastmod>\s*([^<]+?)\s*<\/lastmod>/)?.[1]?.trim(),
+  }))
+  .filter((entry) => entry.url && entry.lastmod);
+const newestGuideDate = guideEntries.filter((entry) => new URL(entry.url).pathname.startsWith("/guide/"))
+  .reduce((latest, entry) => entry.lastmod > latest ? entry.lastmod : latest, "");
+const homeHtml = readFileSync(join(root, "index.html"), "utf8");
+for (const entry of guideEntries.filter((item) => item.lastmod === newestGuideDate && new URL(item.url).pathname.startsWith("/guide/"))) {
+  const path = new URL(entry.url).pathname;
+  if (!homeHtml.includes(`href="${path}"`)) errors.push(`Latest guide lacks homepage link: ${path}`);
+}
+const homeDate = guideEntries.find((entry) => new URL(entry.url).pathname === "/")?.lastmod;
+if (!homeDate || homeDate < newestGuideDate) errors.push("Homepage lastmod predates newest guide link.");
 const timezoneGuidePath = join(root, "guide", "vietnam-golf-booking-korea-vietnam-local-time", "index.html");
 const timezoneGuide = readFileSync(timezoneGuidePath, "utf8");
 const timezoneHead = timezoneGuide.match(/<head\b[^>]*>([\s\S]*?)<\/head>/i)?.[1] || "";
