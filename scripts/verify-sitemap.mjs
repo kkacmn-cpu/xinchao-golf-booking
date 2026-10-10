@@ -83,7 +83,12 @@ if (!bookingRuntime.includes("timeZone: 'Asia/Ho_Chi_Minh'") || bookingRuntime.i
 const manifest = JSON.parse(readFileSync(join(root, "BUILD_MANIFEST.json"), "utf8"));
 if (manifest.url_count !== urls.size) errors.push("Build manifest URL count is stale.");
 for (const entry of manifest.files) {
-  const bytes = readFileSync(join(root, entry.path));
+  const raw = readFileSync(join(root, entry.path));
+  // Git normalizes text files to LF before Linux deployment; verify those
+  // canonical bytes on Windows too, without changing binary asset bytes.
+  const bytes = /\.(?:html|css|js|json|svg|xml|txt|webmanifest)$/i.test(entry.path)
+    ? Buffer.from(raw.toString("utf8").replace(/\r\n/g, "\n"), "utf8")
+    : raw;
   const hash = createHash("sha256").update(bytes).digest("hex").toUpperCase();
   if (bytes.length !== entry.bytes || hash !== entry.sha256) errors.push(`Build manifest file mismatch: ${entry.path}`);
   if (entry.path.endsWith(".html") && bytes.includes("_FXwxkG/chat")) errors.push(`Wrong channel in manifest page: ${entry.path}`);
