@@ -1,4 +1,5 @@
 import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { join, relative, resolve, sep } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
@@ -28,6 +29,7 @@ const internalTargets = new Set();
 let internalLinksChecked = 0;
 for (const page of pages) {
   const html = readFileSync(page, "utf8");
+  if (html.includes("_FXwxkG/chat")) errors.push(`Wrong general-inquiry channel: ${relative(root, page)}`);
   const pathname = "/" + relative(root, page).split(sep).join("/").replace(/index\.html$/, "");
   const ownUrl = new URL(pathname, origin).href;
   const article = html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/i)?.[1] || "";
@@ -70,6 +72,22 @@ const guideEntries = [...sitemap.matchAll(/<url\b[^>]*>([\s\S]*?)<\/url\s*>/g)]
 const newestGuideDate = guideEntries.filter((entry) => new URL(entry.url).pathname.startsWith("/guide/"))
   .reduce((latest, entry) => entry.lastmod > latest ? entry.lastmod : latest, "");
 const homeHtml = readFileSync(join(root, "index.html"), "utf8");
+if (!homeHtml.includes('class="nav-cta" href="https://pf.kakao.com/_xdBALn/chat" target="_blank" rel="noopener noreferrer">골프 상담 바로하기')) {
+  errors.push("Direct golf inquiry is missing from homepage navigation.");
+}
+if (!homeHtml.includes('id="booking-wizard"')) errors.push("Optional booking preparation wizard is missing.");
+const bookingRuntime = readFileSync(join(root, "assets", "booking-runtime.js"), "utf8");
+if (!bookingRuntime.includes("timeZone: 'Asia/Ho_Chi_Minh'") || bookingRuntime.includes("localDay")) {
+  errors.push("Booking date validation does not use Vietnam local day.");
+}
+const manifest = JSON.parse(readFileSync(join(root, "BUILD_MANIFEST.json"), "utf8"));
+if (manifest.url_count !== urls.size) errors.push("Build manifest URL count is stale.");
+for (const entry of manifest.files) {
+  const bytes = readFileSync(join(root, entry.path));
+  const hash = createHash("sha256").update(bytes).digest("hex").toUpperCase();
+  if (bytes.length !== entry.bytes || hash !== entry.sha256) errors.push(`Build manifest file mismatch: ${entry.path}`);
+  if (entry.path.endsWith(".html") && bytes.includes("_FXwxkG/chat")) errors.push(`Wrong channel in manifest page: ${entry.path}`);
+}
 for (const entry of guideEntries.filter((item) => item.lastmod === newestGuideDate && new URL(item.url).pathname.startsWith("/guide/"))) {
   const path = new URL(entry.url).pathname;
   if (!homeHtml.includes(`href="${path}"`)) errors.push(`Latest guide lacks homepage link: ${path}`);

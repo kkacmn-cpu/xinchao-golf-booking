@@ -27,9 +27,10 @@
   const copy = $('[data-booking-copy]');
   const kakao = $('[data-booking-kakao]');
   const copyStatus = $('#booking-copy-status');
-  const today = new Date();
-  const localDay = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
-  date.min = localDay;
+  const vietnamDay = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Ho_Chi_Minh', year: 'numeric', month: '2-digit', day: '2-digit'
+  }).format(new Date());
+  date.min = vietnamDay;
   let summaryText = '';
 
   function syncCourses() {
@@ -48,7 +49,7 @@
   function validateCurrent() {
     error.hidden = true;
     if (step === 1 && !undecided.checked && !date.value) return fail('라운드 날짜를 입력하거나 날짜 미정 상담을 선택하세요.');
-    if (step === 1 && !undecided.checked && date.value < localDay) return fail('지난 날짜는 선택할 수 없습니다.');
+    if (step === 1 && !undecided.checked && date.value < vietnamDay) return fail('지난 날짜는 선택할 수 없습니다.');
     if (step === 1 && !region.value) return fail('희망 지역을 선택하세요.');
     if (step === 2 && !course.value) return fail('현지 확인할 골프장을 선택하세요.');
     if (step === 3 && $('#booking-vehicle').value !== '차량 불필요' && !$('#booking-stay').value.trim()) return fail('픽업 동선을 확인할 숙소 또는 지역을 입력하세요.');
