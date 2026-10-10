@@ -791,11 +791,6 @@
       "path": "sitemap.xml",
       "bytes": 28965,
       "sha256": "E2639E44EF67D63F3F183A13941625ADD133EDCC120ABDA4800E78D98922BAF7"
-    },
-    {
-      "path": "vercel.json",
-      "bytes": 940,
-      "sha256": "906B64A741A49A4DD9091BEDECF4B7EC443FD37D1BC12C5A9A176633D08EF2EC"
     }
   ],
   "historical_priced_course_count": 29,
