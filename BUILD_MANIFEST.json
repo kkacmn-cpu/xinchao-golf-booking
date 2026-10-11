@@ -1,7 +1,7 @@
 {
   "site": "booking",
   "origin": "https://xinchao-golf-booking.vercel.app",
-  "built_at": "2026-10-10T14:17:54.364Z",
+  "built_at": "2026-10-11T05:35:16Z",
   "source_registry": "XINCHAO_NATIONWIDE_AEO_STRATEGY_COVERAGE_V1_20260821",
   "source_registry_sha256": "AD6E7F2DEA38F5C060CA423793CEC2CB1C7B676993274117ACADA693592C360D",
   "price_dataset": "2026-09-23-fasttrack-adult-v1|2026-09|2026-09-canonical-golf-read-view",
@@ -9,7 +9,7 @@
   "course_count": 74,
   "region_count": 29,
   "current_priced_course_count": 0,
-  "url_count": 142,
+  "url_count": 143,
   "tracker_id": "xinchao-golf-booking",
   "files": [
     {
@@ -618,6 +618,11 @@
       "sha256": "BD2D09CE3DDCA4429166E6D49FA64C0CF11DEAAAEC9A858C6C5F8D20C927E71C"
     },
     {
+      "path": "guide/vinclub-golf-october-2026-member-booking-check/index.html",
+      "bytes": 10029,
+      "sha256": "6E009B15626E1C748F9F16633F0E613EC9757201873439D6F7713B92B6AE3A3C"
+    },
+    {
       "path": "guide/waitlist-confirmation-check/index.html",
       "bytes": 8865,
       "sha256": "16333AF9972E7B9351D1C8358C7A61D5924E1C4A9F920E8A4AB424B86B9F6A44"
@@ -629,8 +634,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 91907,
-      "sha256": "98E7022268DC480FCEE02AEF4048F2AECE6801C8B1A753D906F8771A21ED37E2"
+      "bytes": 92358,
+      "sha256": "8017DF4406DCFE15E1A52A1B245BAD78E58BDA6C4959109C5A01409A462D5C53"
     },
     {
       "path": "manifest.webmanifest",
@@ -789,8 +794,8 @@
     },
     {
       "path": "sitemap.xml",
-      "bytes": 28965,
-      "sha256": "E2639E44EF67D63F3F183A13941625ADD133EDCC120ABDA4800E78D98922BAF7"
+      "bytes": 29164,
+      "sha256": "8BFB85258F25EB5F600C74FB77B642C1F119F1E1E55BA149ECEB46BD45AA7C4F"
     }
   ],
   "historical_priced_course_count": 29,
