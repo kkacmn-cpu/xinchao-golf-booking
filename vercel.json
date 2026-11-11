@@ -29,5 +29,1017 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/bacgiang"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/bacgiang/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/binhduong"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/binhduong/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/dalat"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/dalat/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/danang"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/danang/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/haiphong"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/haiphong/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/halong"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/halong/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/hanam"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/hanam/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/hanoi"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/hanoi/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/hatinh"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/hatinh/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/hoabinh"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/hoabinh/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/golf",
+      "permanent": true,
+      "source": "/golf/hochiminh"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/golf",
+      "permanent": true,
+      "source": "/golf/hochiminh/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/hoian"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/hoian/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/hue"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/hue/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/laocai"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/laocai/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/golf",
+      "permanent": true,
+      "source": "/golf/longan"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/golf",
+      "permanent": true,
+      "source": "/golf/longan/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/nghean"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/nghean/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/nhatrang"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/nhatrang/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/ninhbinh"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/ninhbinh/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/north"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/north/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/phanthiet"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/phanthiet/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/phuquoc"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/phuquoc/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/phutho"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/phutho/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/quangninh"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/quangninh/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/quangtri"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/quangtri/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/quynhon"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/quynhon/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/thainguyen"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/thainguyen/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/thanhhoa"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/thanhhoa/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/golf",
+      "permanent": true,
+      "source": "/golf/vungtau"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/golf",
+      "permanent": true,
+      "source": "/golf/vungtau/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/yenbai"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/golf/yenbai/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide",
+      "permanent": true,
+      "source": "/guide"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide",
+      "permanent": true,
+      "source": "/guide/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/ba-na-hills-golf-club-night-tee-time-booking.html",
+      "permanent": true,
+      "source": "/guide/ba-na-hills-golf-club-night-tee-time-booking"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/ba-na-hills-golf-club-night-tee-time-booking.html",
+      "permanent": true,
+      "source": "/guide/ba-na-hills-golf-club-night-tee-time-booking/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/booking-order.html",
+      "permanent": true,
+      "source": "/guide/booking-order"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/booking-order.html",
+      "permanent": true,
+      "source": "/guide/booking-order/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/booking-payment-name-receipt-check.html",
+      "permanent": true,
+      "source": "/guide/booking-payment-name-receipt-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/booking-payment-name-receipt-check.html",
+      "permanent": true,
+      "source": "/guide/booking-payment-name-receipt-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/booking-voucher-final-check.html",
+      "permanent": true,
+      "source": "/guide/booking-voucher-final-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/booking-voucher-final-check.html",
+      "permanent": true,
+      "source": "/guide/booking-voucher-final-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/brg-da-nang-golf-booking-tee-time-check.html",
+      "permanent": true,
+      "source": "/guide/brg-da-nang-golf-booking-tee-time-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/brg-da-nang-golf-booking-tee-time-check.html",
+      "permanent": true,
+      "source": "/guide/brg-da-nang-golf-booking-tee-time-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/cancellation.html",
+      "permanent": true,
+      "source": "/guide/cancellation"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/cancellation.html",
+      "permanent": true,
+      "source": "/guide/cancellation/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/first-trip.html",
+      "permanent": true,
+      "source": "/guide/first-trip"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/first-trip.html",
+      "permanent": true,
+      "source": "/guide/first-trip/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/golfer-name-correction-request.html",
+      "permanent": true,
+      "source": "/guide/golfer-name-correction-request"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/golfer-name-correction-request.html",
+      "permanent": true,
+      "source": "/guide/golfer-name-correction-request/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/group-flight-tee-time-request.html",
+      "permanent": true,
+      "source": "/guide/group-flight-tee-time-request"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/group-flight-tee-time-request.html",
+      "permanent": true,
+      "source": "/guide/group-flight-tee-time-request/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/group-pairing-final-submission-check.html",
+      "permanent": true,
+      "source": "/guide/group-pairing-final-submission-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/group-pairing-final-submission-check.html",
+      "permanent": true,
+      "source": "/guide/group-pairing-final-submission-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/harmonie-golf-park-reservation-lani-dani-request.html",
+      "permanent": true,
+      "source": "/guide/harmonie-golf-park-reservation-lani-dani-request"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/harmonie-golf-park-reservation-lani-dani-request.html",
+      "permanent": true,
+      "source": "/guide/harmonie-golf-park-reservation-lani-dani-request/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/hoiana-shores-golf-group-over-eight-booking.html",
+      "permanent": true,
+      "source": "/guide/hoiana-shores-golf-group-over-eight-booking"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/hoiana-shores-golf-group-over-eight-booking.html",
+      "permanent": true,
+      "source": "/guide/hoiana-shores-golf-group-over-eight-booking/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/kings-island-booking-window-player-limit-check.html",
+      "permanent": true,
+      "source": "/guide/kings-island-booking-window-player-limit-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/kings-island-booking-window-player-limit-check.html",
+      "permanent": true,
+      "source": "/guide/kings-island-booking-window-player-limit-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/kn-golf-links-cam-ranh-18-27-hole-booking-check.html",
+      "permanent": true,
+      "source": "/guide/kn-golf-links-cam-ranh-18-27-hole-booking-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/kn-golf-links-cam-ranh-18-27-hole-booking-check.html",
+      "permanent": true,
+      "source": "/guide/kn-golf-links-cam-ranh-18-27-hole-booking-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/laguna-lang-co-1-to-8-player-cancellation-deadline.html",
+      "permanent": true,
+      "source": "/guide/laguna-lang-co-1-to-8-player-cancellation-deadline"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/laguna-lang-co-1-to-8-player-cancellation-deadline.html",
+      "permanent": true,
+      "source": "/guide/laguna-lang-co-1-to-8-player-cancellation-deadline/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/laguna-lang-co-golf-booking-caddie-cart-check.html",
+      "permanent": true,
+      "source": "/guide/laguna-lang-co-golf-booking-caddie-cart-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/laguna-lang-co-golf-booking-caddie-cart-check.html",
+      "permanent": true,
+      "source": "/guide/laguna-lang-co-golf-booking-caddie-cart-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/late-arrival-next-day-tee-time-fasttrack.html",
+      "permanent": true,
+      "source": "/guide/late-arrival-next-day-tee-time-fasttrack"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/late-arrival-next-day-tee-time-fasttrack.html",
+      "permanent": true,
+      "source": "/guide/late-arrival-next-day-tee-time-fasttrack/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/long-bien-golf-course-night-round-booking.html",
+      "permanent": true,
+      "source": "/guide/long-bien-golf-course-night-round-booking"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/long-bien-golf-course-night-round-booking.html",
+      "permanent": true,
+      "source": "/guide/long-bien-golf-course-night-round-booking/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/long-thanh-golf-booking-player-transfer-check.html",
+      "permanent": true,
+      "source": "/guide/long-thanh-golf-booking-player-transfer-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/long-thanh-golf-booking-player-transfer-check.html",
+      "permanent": true,
+      "source": "/guide/long-thanh-golf-booking-player-transfer-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/montgomerie-links-agent-voucher-checkin-visitor-rate.html",
+      "permanent": true,
+      "source": "/guide/montgomerie-links-agent-voucher-checkin-visitor-rate"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/montgomerie-links-agent-voucher-checkin-visitor-rate.html",
+      "permanent": true,
+      "source": "/guide/montgomerie-links-agent-voucher-checkin-visitor-rate/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/montgomerie-links-vietnam-tee-time-dress-code-booking.html",
+      "permanent": true,
+      "source": "/guide/montgomerie-links-vietnam-tee-time-dress-code-booking"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/montgomerie-links-vietnam-tee-time-dress-code-booking.html",
+      "permanent": true,
+      "source": "/guide/montgomerie-links-vietnam-tee-time-dress-code-booking/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/player-name-handicap-submission-check.html",
+      "permanent": true,
+      "source": "/guide/player-name-handicap-submission-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/player-name-handicap-submission-check.html",
+      "permanent": true,
+      "source": "/guide/player-name-handicap-submission-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/rain.html",
+      "permanent": true,
+      "source": "/guide/rain"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/rain.html",
+      "permanent": true,
+      "source": "/guide/rain/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/royal-long-an-free-hcm-shuttle-booking-check.html",
+      "permanent": true,
+      "source": "/guide/royal-long-an-free-hcm-shuttle-booking-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/royal-long-an-free-hcm-shuttle-booking-check.html",
+      "permanent": true,
+      "source": "/guide/royal-long-an-free-hcm-shuttle-booking-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/sky-lake-online-booking-48-hour-confirmation-call.html",
+      "permanent": true,
+      "source": "/guide/sky-lake-online-booking-48-hour-confirmation-call"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/sky-lake-online-booking-48-hour-confirmation-call.html",
+      "permanent": true,
+      "source": "/guide/sky-lake-online-booking-48-hour-confirmation-call/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/tam-dao-golf-booking-tee-time-pairing-check.html",
+      "permanent": true,
+      "source": "/guide/tam-dao-golf-booking-tee-time-pairing-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/tam-dao-golf-booking-tee-time-pairing-check.html",
+      "permanent": true,
+      "source": "/guide/tam-dao-golf-booking-tee-time-pairing-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/tan-son-nhat-golf-booking-flight-time-check.html",
+      "permanent": true,
+      "source": "/guide/tan-son-nhat-golf-booking-flight-time-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/tan-son-nhat-golf-booking-flight-time-check.html",
+      "permanent": true,
+      "source": "/guide/tan-son-nhat-golf-booking-flight-time-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/tee-time.html",
+      "permanent": true,
+      "source": "/guide/tee-time"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/tee-time-change-cancellation-deadline-check.html",
+      "permanent": true,
+      "source": "/guide/tee-time-change-cancellation-deadline-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/tee-time-change-cancellation-deadline-check.html",
+      "permanent": true,
+      "source": "/guide/tee-time-change-cancellation-deadline-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/tee-time-confirmation-course-name-check.html",
+      "permanent": true,
+      "source": "/guide/tee-time-confirmation-course-name-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/tee-time-confirmation-course-name-check.html",
+      "permanent": true,
+      "source": "/guide/tee-time-confirmation-course-name-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/tee-time.html",
+      "permanent": true,
+      "source": "/guide/tee-time/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/the-bluffs-ho-tram-two-player-pairing-policy.html",
+      "permanent": true,
+      "source": "/guide/the-bluffs-ho-tram-two-player-pairing-policy"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/the-bluffs-ho-tram-two-player-pairing-policy.html",
+      "permanent": true,
+      "source": "/guide/the-bluffs-ho-tram-two-player-pairing-policy/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/two-player-join-request.html",
+      "permanent": true,
+      "source": "/guide/two-player-join-request"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/two-player-join-request.html",
+      "permanent": true,
+      "source": "/guide/two-player-join-request/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/vietnam-golf-booking-korea-vietnam-local-time.html",
+      "permanent": true,
+      "source": "/guide/vietnam-golf-booking-korea-vietnam-local-time"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/vietnam-golf-booking-korea-vietnam-local-time.html",
+      "permanent": true,
+      "source": "/guide/vietnam-golf-booking-korea-vietnam-local-time/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/vinclub-golf-october-2026-member-booking-check.html",
+      "permanent": true,
+      "source": "/guide/vinclub-golf-october-2026-member-booking-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/vinclub-golf-october-2026-member-booking-check.html",
+      "permanent": true,
+      "source": "/guide/vinclub-golf-october-2026-member-booking-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/vinpearl-golf-fit-deposit-payment-confirmation.html",
+      "permanent": true,
+      "source": "/guide/vinpearl-golf-fit-deposit-payment-confirmation"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/vinpearl-golf-fit-deposit-payment-confirmation.html",
+      "permanent": true,
+      "source": "/guide/vinpearl-golf-fit-deposit-payment-confirmation/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/vinpearl-golf-group-minimum-guests-deposit-settlement.html",
+      "permanent": true,
+      "source": "/guide/vinpearl-golf-group-minimum-guests-deposit-settlement"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/vinpearl-golf-group-minimum-guests-deposit-settlement.html",
+      "permanent": true,
+      "source": "/guide/vinpearl-golf-group-minimum-guests-deposit-settlement/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/vinpearl-golf-online-request-confirmation-check.html",
+      "permanent": true,
+      "source": "/guide/vinpearl-golf-online-request-confirmation-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/vinpearl-golf-online-request-confirmation-check.html",
+      "permanent": true,
+      "source": "/guide/vinpearl-golf-online-request-confirmation-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/vinpearl-nam-hoi-an-tee-time-arrival-check.html",
+      "permanent": true,
+      "source": "/guide/vinpearl-nam-hoi-an-tee-time-arrival-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/vinpearl-nam-hoi-an-tee-time-arrival-check.html",
+      "permanent": true,
+      "source": "/guide/vinpearl-nam-hoi-an-tee-time-arrival-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/waitlist-confirmation-check.html",
+      "permanent": true,
+      "source": "/guide/waitlist-confirmation-check"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/guide/waitlist-confirmation-check.html",
+      "permanent": true,
+      "source": "/guide/waitlist-confirmation-check/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/bacgiang"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/bacgiang/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/binhduong"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/binhduong/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/dalat"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/dalat/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/danang"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/danang/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/haiphong"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/haiphong/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/halong"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/halong/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/hanam"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/hanam/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/hanoi"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/hanoi/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/hatinh"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/hatinh/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/hoabinh"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/hoabinh/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/golf",
+      "permanent": true,
+      "source": "/region/hochiminh"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/golf",
+      "permanent": true,
+      "source": "/region/hochiminh/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/hoian"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/hoian/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/hue"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/hue/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/laocai"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/laocai/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/golf",
+      "permanent": true,
+      "source": "/region/longan"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/golf",
+      "permanent": true,
+      "source": "/region/longan/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/nghean"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/nghean/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/nhatrang"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/nhatrang/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/ninhbinh"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/ninhbinh/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/north"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/north/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/phanthiet"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/phanthiet/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/phuquoc"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/phuquoc/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/phutho"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/phutho/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/quangninh"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/quangninh/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/quangtri"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/quangtri/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/quynhon"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/quynhon/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/thainguyen"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/thainguyen/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/thanhhoa"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/thanhhoa/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/golf",
+      "permanent": true,
+      "source": "/region/vungtau"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/golf",
+      "permanent": true,
+      "source": "/region/vungtau/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/yenbai"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/regions",
+      "permanent": true,
+      "source": "/region/yenbai/"
+    },
+    {
+      "destination": "https://xinchao-golf.vercel.app/",
+      "permanent": true,
+      "source": "/"
+    },
+    {
+      "source": "/((?!naver|google|d5b83|robots\\.txt|sitemap\\.xml).*)",
+      "destination": "https://xinchao-golf.vercel.app/",
+      "permanent": true
+    }
   ]
 }
